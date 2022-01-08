@@ -5,28 +5,14 @@
   
   body{background-color: darkgrey;}
 
-  .head{
-    text-align: center;
-    padding: 15px;
+  .header{
+   text-align: center;
+   padding: 20px;
   }
-  .table{
-      display: flex;
-      margin: 15px;
-      padding: 15px;
-      border: red 1px solid;
-  }
-  .menu{
-      border: solid 2px black;
-      margin: 15px;
-      position: relative;
-      background-color: wheat;
-  }
-  h3{
-      padding: 15px;
-      text-align: justify;
-  }
+  
+ 
   .menu h2{
-    font-size: 20px;
+  font-size: 20px;
 	width: 150px;
 	border: 1px solid black;
 	font-weight: bold;
@@ -40,5 +26,5 @@
 @media only screen and (max-width:600px){
 .table{
   
-
+color: red;
 }}
